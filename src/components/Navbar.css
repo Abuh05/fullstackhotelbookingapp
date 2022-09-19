@@ -8,5 +8,9 @@ justify-content: center;
 .navContainer{
     width: 100px;
     max-width: 1024px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
     
 }
