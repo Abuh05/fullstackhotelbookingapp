@@ -34,6 +34,10 @@ const Header = ({type}) => {
         }
     })
   }
+
+  const handleSearch = () => {
+    
+  }
   return (
     <div>
       <div className="header">
@@ -127,7 +131,7 @@ const Header = ({type}) => {
               </div>}
             </div>
             <div className="headerSearchItem">
-              <button className="headerBtn">Search</button>
+              <button className="headerBtn" onClick={handleSearch}>Search</button>
             </div>
           </div> </>}
         </div>
